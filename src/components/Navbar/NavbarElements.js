@@ -53,7 +53,7 @@ export const NavLogo= styled(LinkR)`
 color: white;
 justify-self:flex-start;
 cursor:pointer;
-font-size:1.5rem;
+font-size:2rem;
 display:flex;
 align-items:center;
 margin-left:24px;
@@ -71,7 +71,7 @@ height:100%;
 cursor:pointer;
 text-decoration: none;
 &.active{
-    border-bottom:3px solid #01bf71;
+    border-bottom:3px solid white;
 }
 ` 
 export const Navitem= styled(LinkR)`
